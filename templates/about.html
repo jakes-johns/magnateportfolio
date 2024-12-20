@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Magnate Empire</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <span class="logo"></span>
+                <!-- <h1>MAGNATE EMPIRE</h1> -->
+                <!-- <p>Showcasing My Work and Creativity</p> -->
+                <ul>
+                    <li><a  href="{{url_for('home')}}">Home</a></li>
+                    <li><a class="current" href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('contacts')}}">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="empire2">
+            <!-- <h2>My Work</h2> -->
+            <p><span class="primary-text"><strong>About Magnate Empire</strong></span> <br>
+            - Our Goal Is To Build Bots And Trade -<br>
+            </p>
+        </section>
+        <div class="clr"></div>
+        <section id="display">
+            <div class="container">
+                <div class="testimonial">
+                    <img src="/static/images/trading_robot2.jpg" alt="Trading_Robot">
+                    <p>Technology has led to pronounced revolution in the trading world.
+                         It has led to introduction of trading <q>Robots</q> which have the capabilities of analyzing 
+                         the market and executing the trades on behalf of the trader. <span class="primary-text2"><strong>Magnate Empire</strong></span> has therefore applied
+                          this technology and developed <strong>Competent Trading Bots</strong>. Our robots are programmed 
+                          by skilled personnel who have been in the market for very many years.
+                           They have upto <strong>98% win rate</strong> and already inbuilt analysis tool. 
+                           They are user friendly and they come along with user manual. 
+                    </p>
+                </div> 
+                <div class="testimonial">
+                    <img src="/static/images/trading1.jpg" alt="Trading">
+                    <p>Trading have become one of the occupation and source of great wealth in the 21<sup>st</sup> century 
+                        and it has attracted many people having the zeal to achieve their dreams.
+                         This has increased demand for the trading course. In regard to this, <span class="primary-text2"><strong>Magnate Empire</strong></span> has responded by 
+                         offering <strong>Forex & Binary Option courses</strong> at a friendly fee. <br>
+                        <strong>Charges;</strong><br>
+                                <i> 1. Forex  = 400$ <br>
+                                2. Binary = 200$</i> <br>
+                        </p>
+
+                        <p>
+                            <a class="link1" href="{{url_for('contacts')}}" target="_blank">Contact</a> us and book the classes ASAP.
+                        </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Magnate Empire &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

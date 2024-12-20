@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body id="home-page">
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <span class="logo"></span>
+                <!-- <h1>MAGNATE EMPIRE</h1> -->
+                <!-- <p>Showcasing My Work and Creativity</p> -->
+                <ul>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a class="current" href="{{url_for('contacts')}}">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="empire4">
+        <section id="contact">
+            <h2><span class="primary-text">Contact Me</span></h2>
+            <form method="POST" action="/contact">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> Magnate Empire &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

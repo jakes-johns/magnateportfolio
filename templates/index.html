@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnate</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body id="home-page">
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <span class="logo"></span> 
+                <!-- <img src="/static/images/logo.png" alt="magnate empire logo"> -->
+                <h1>
+                </h1>
+                <!-- <p>Showcasing My Work and Creativity</p> -->
+                <ul>
+                    <li><a class="current" href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('contacts')}}">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="empire1">
+        <section id="work">
+            <!-- <h2>My Work</h2> -->
+            <p><span class="primary-text"><strong>A Proffesional Trader.</strong></span> <br>
+                I am a Proffesional and Certified Forex and Binary Trader. <br>
+                <a class="btn" href="{{url_for('more')}}" target="_blank"><strong>Learn More</strong></a>
+                <a class="btn" href="{{url_for('contacts')}}" target="_blank"><strong>Hire Me</strong></a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p> Magnate Empire &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

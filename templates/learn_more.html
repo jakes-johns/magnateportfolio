@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn_More</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body id="more">
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <span class="logo"></span>
+                <!-- <h1>MAGNATE EMPIRE</h1> -->
+                <!-- <p>Showcasing My Work and Creativity</p> -->
+                <ul>
+                    <li><a href="{{url_for('home')}}" target="_parent">Home</a></li>
+                    <li><a href="{{url_for('about')}}" target="_self">About</a></li>
+                    <li><a href="{{url_for('contacts')}}" target="_self">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="empire3">
+        <section>
+            <h2><span class="primary-text"><strong>More About Magnate</strong></span></h2>
+            <p>
+                <strong>Magnate</strong> is a renowned forex trader and expert programmer of advanced trading robots, 
+                celebrated for delivering exceptional results in the financial markets. 
+                With a deep understanding of forex trends and cutting-edge algorithmic strategies, 
+                <strong>Magnate</strong> ensures clients achieve their investment goals efficiently. 
+                Dedicated to serving customers with dignity and unmatched competence, 
+                <strong>Magnate</strong> combines professionalism and innovation, 
+                crafting personalized solutions that inspire trust and drive success in the fast-paced world of forex trading.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p> Magnate Empire &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
