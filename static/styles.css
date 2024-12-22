@@ -307,14 +307,14 @@ footer {
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body {
-        font-size: 16px; /* Adjust font size for readability */
+        font-size: 16px; /* Adjust font size for readability *
         line-height: 1.4;
     }
 
     header h1 {
-        font-size: 1.8em; /* Smaller headings on smaller screens */
+        font-size: 1.8em; /* Smaller headings on smaller screens *
     }
 
     header p {
@@ -322,18 +322,18 @@ footer {
     }
 
     #navbar {
-        position: relative; /* Remove fixed positioning */
+        position: relative; /* Remove fixed positioning *
         text-align: center;
     }
 
     #navbar ul {
         display: flex;
-        flex-direction: column; /* Stack links vertically */
+        flex-direction: column; /* Stack links vertically *
         align-items: center;
     }
 
     #navbar ul li {
-        margin: 10px 0; /* Add spacing between links */
+        margin: 10px 0; /* Add spacing between links *
     }
 
     #navbar ul li a {
@@ -345,22 +345,22 @@ footer {
     }
 
     .item {
-        flex: 1 1 100%; /* Full width on mobile */
+        flex: 1 1 100%; /* Full width on mobile *
     }
 
     form input, form textarea, form button {
-        font-size: 1em; /* Adjust input fields for readability */
+        font-size: 1em; /* Adjust input fields for readability *
     }
 
     .btn {
-        font-size: 16px; /* Smaller buttons */
+        font-size: 16px; /* Smaller buttons *
         padding: 10px 15px;
     }
 }
 
 @media (max-width: 480px) {
     body {
-        font-size: 14px; /* Smaller base font size */
+        font-size: 14px; /* Smaller base font size *
     }
 
     header {
@@ -368,11 +368,11 @@ footer {
     }
 
     header h1 {
-        font-size: 1.5em; /* Smaller heading size */
+        font-size: 1.5em; /* Smaller heading size *
     }
 
     .logo {
-        width: 150px; /* Adjust logo size */
+        width: 150px; /* Adjust logo size *
         height: 50px;
     }
 
@@ -381,7 +381,7 @@ footer {
     }
 
     #empire1 p, #empire2 p, #empire3 p {
-        font-size: 18px; /* Reduce font size for sections */
+        font-size: 18px; /* Reduce font size for sections *
         padding: 20px;
     }
 
@@ -392,4 +392,5 @@ footer {
     footer {
         font-size: 0.8em; /* Smaller footer text */
     }
-}
+} */
+ 
