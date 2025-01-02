@@ -352,7 +352,14 @@ footer {
     .primary-text {
         font-size: 30px;
     }
-     #empire4 {
-        padding: 100px 20px;
+      #empire4 {
+        padding: 100px 20px 150px 20px;
+    }
+    #display .testimonial p {
+        font-size: 17px;
+    }
+    #display img {
+        width: 150px;
+        height: 150px;
     }
 }
