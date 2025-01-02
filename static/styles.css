@@ -331,4 +331,15 @@ footer {
         background-color: #333;
         padding: 90px 100px;
     }
+     #navbar ul li a {
+        display: block;
+        padding: 10px;
+        /* margin-right: 50px; */
+        text-align: center;
+        /* background-color: #a59999; */
+    }
+    .btn {
+        font-size: 15px;
+        padding: 7px 10px;
+    }
 }
