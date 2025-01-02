@@ -322,4 +322,13 @@ footer {
         width: 100px;
         height: 35px;
     }
+    #empire1 {
+        padding: 1em 0.5em;
+    }
+    #empire1 p {
+        font-size: 20px;
+        background-size: cover;
+        background-color: #333;
+        padding: 90px 100px;
+    }
 }
