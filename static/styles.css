@@ -364,4 +364,16 @@ footer {
         height: 130px;
         padding: 2px;
     }
+     #empire3 {
+        padding: 1em 0.5em;
+    }
+    
+    #empire3 h2, #empire4 h2 {
+        padding: 20px 20px;
+    }
+    #empire3 p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        padding: 50px 20px;
+    }
 }
