@@ -359,7 +359,8 @@ footer {
         font-size: 17px;
     }
     #display img {
-        width: 150px;
-        height: 150px;
+       width: 130px;
+        height: 130px;
+        padding: 2px;
     }
 }
