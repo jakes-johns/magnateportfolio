@@ -25,6 +25,17 @@
             </div>
         </nav>
     </header>
+    {% with messages = get_flashed_messages(with_categories=True) %}
+    {% if messages %}
+        <div id="flash-messages">
+        {% for category, message in messages %}
+            <div class="flash-message {{ category }}">
+            {{ message }}
+            </div>
+        {% endfor %}
+        </div>
+    {% endif %}
+    {% endwith %}
 
     <main id="empire1">
         <section id="work">
