@@ -346,8 +346,9 @@ footer {
 .social-media-icons a {
     margin-right: 50px; /* Space between icons */
 }
-.socials-text {
-    font-size: 12px;
+.socials-text2 {
+    font-size: 20px;
+    color: #fff;
 }
 
 /* media responsive */
