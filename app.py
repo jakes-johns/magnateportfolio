@@ -12,7 +12,7 @@ app.secret_key = os.getenv('SECRET_KEY', 'default_secret_key')
 
 # Configure Flask-Mail
 SMTP_SERVER = os.getenv('SMTP_SERVER')
-SMTP_PORT = int(os.getenv('SMTP_PORT'))
+SMTP_PORT = int(os.getenv('SMTP_PORT', '587'))
 EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')
 EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
 
